@@ -35,7 +35,7 @@ void dfs(int u, const Graph &adj) {
                     if (x == u) break;
                 }
                 Rstack.pop();
-  //بتول كلّيّة
+  //بتول كلّيّة وراما سالوخة
           }
         }
     }
@@ -67,7 +67,7 @@ Graph convertToDirectedGraph(const Graph &graph) {
         }
     }
     return directedGraph;
-//سعاد عثمان
+// سعاد عثمان وفاطمة شيخ أمين
 }
 
 bool isStronglyConnected(const Graph &adj, int start, vector<int> &disc, vector<int> &low, stack<int> &st, vector<bool> &inStack) {
